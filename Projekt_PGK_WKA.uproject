@@ -9,7 +9,17 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine"
+				"Engine",
+				"AnimGraph"
+			]
+		},
+		{
+			"Name": "Projekt_PGK_WKARuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AnimGraph"
 			]
 		}
 	],

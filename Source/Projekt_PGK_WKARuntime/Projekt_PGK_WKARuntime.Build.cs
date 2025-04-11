@@ -2,16 +2,30 @@
 
 using UnrealBuildTool;
 
-public class Projekt_PGK_WKA : ModuleRules
+public class Projekt_PGK_WKARuntime : ModuleRules
 {
-	public Projekt_PGK_WKA(ReadOnlyTargetRules Target) : base(Target)
+	public Projekt_PGK_WKARuntime(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore",
-    "AnimGraphRuntime", "Slate", "SlateCore", "UMG", "RHI", "RenderCore", "DeveloperSettings" });
+		PublicDependencyModuleNames.AddRange(
+			new string[] 
+			{ 
+				"Core", 
+				"CoreUObject", 
+				"Engine", 
+				"InputCore",
+				"AnimationCore",
+                "AnimGraphRuntime", 
+				"AnimGraph", 
+				"BlueprintGraph",
+                "Projekt_PGK_WKA",
 
-        PrivateDependencyModuleNames.AddRange(new string[] { "CoreUObject", "Engine", "Slate", "SlateCore", "GraphEditor", "PropertyEditor", "EditorStyle", "AnimGraphRuntime", "AnimGraph", "BlueprintGraph", });
+
+            }
+			);
+
+		PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

@@ -10,6 +10,6 @@ public class Projekt_PGK_WKAEditorTarget : TargetRules
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "Projekt_PGK_WKA" } );
+		ExtraModuleNames.AddRange( new string[] { "Projekt_PGK_WKA", "Projekt_PGK_WKARuntime" } );
 	}
 }

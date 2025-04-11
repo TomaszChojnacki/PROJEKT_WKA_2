@@ -10,6 +10,6 @@ public class Projekt_PGK_WKATarget : TargetRules
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "Projekt_PGK_WKA" } );
+		ExtraModuleNames.AddRange( new string[] { "Projekt_PGK_WKA", "Projekt_PGK_WKARuntime" } );
 	}
 }
