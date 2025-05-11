@@ -77,6 +77,10 @@
 		{
 			"Name": "MotionWarping",
 			"Enabled": true
+		},
+		{
+			"Name": "DaySequence",
+			"Enabled": true
 		}
 	]
 }
