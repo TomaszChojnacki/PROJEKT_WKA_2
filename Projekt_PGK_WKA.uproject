@@ -84,15 +84,15 @@
 		},
 		{
 			"Name": "CityBLD",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "BaseKit_Medieval",
-			"Enabled": true
+			"Enabled": false
 		},
 		{
 			"Name": "Sample_CityKit",
-			"Enabled": true
+			"Enabled": false
 		}
 	]
 }
