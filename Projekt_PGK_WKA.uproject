@@ -81,6 +81,18 @@
 		{
 			"Name": "DaySequence",
 			"Enabled": true
+		},
+		{
+			"Name": "CityBLD",
+			"Enabled": true
+		},
+		{
+			"Name": "BaseKit_Medieval",
+			"Enabled": true
+		},
+		{
+			"Name": "Sample_CityKit",
+			"Enabled": true
 		}
 	]
 }
