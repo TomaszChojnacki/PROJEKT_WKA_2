@@ -93,6 +93,14 @@
 		{
 			"Name": "Sample_CityKit",
 			"Enabled": false
+		},
+		{
+			"Name": "NiagaraFluids",
+			"Enabled": true
+		},
+		{
+			"Name": "CitySampleSensorGrid",
+			"Enabled": true
 		}
 	]
 }
