@@ -101,6 +101,10 @@
 		{
 			"Name": "CitySampleSensorGrid",
 			"Enabled": true
+		},
+		{
+			"Name": "MotoSynth",
+			"Enabled": true
 		}
 	]
 }
