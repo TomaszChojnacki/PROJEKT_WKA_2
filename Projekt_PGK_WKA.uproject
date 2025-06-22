@@ -105,6 +105,10 @@
 		{
 			"Name": "MotoSynth",
 			"Enabled": true
+		},
+		{
+			"Name": "PCG",
+			"Enabled": true
 		}
 	]
 }
