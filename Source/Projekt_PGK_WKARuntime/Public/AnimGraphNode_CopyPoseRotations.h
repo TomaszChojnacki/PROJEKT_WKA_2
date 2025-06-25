@@ -9,6 +9,7 @@
 #include "AnimGraphNode_CopyPoseRotations.generated.h"
 
 
+
 UCLASS(MinimalAPI)
 class UAnimGraphNode_CopyPoseRotations : public UAnimGraphNode_Base
 {

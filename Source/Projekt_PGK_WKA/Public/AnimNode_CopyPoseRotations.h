@@ -1,11 +1,13 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
-
+/*
 #pragma once
 
 #include "CoreMinimal.h"
 #include "UObject/ObjectMacros.h"
 #include "Animation/AnimNodeBase.h"
 #include "AnimNode_CopyPoseRotations.generated.h"
+
+
 
 class USkeletalMeshComponent;
 struct FAnimInstanceProxy;
@@ -35,9 +37,7 @@ struct FProjekt_PGK_WKA_BoneSourceSettings
 	bool bIncludeInputPose;
 };
 
-/**
- *	Simple controller to copy a bone's rotation to another one.
- */
+
 
 USTRUCT(BlueprintInternalUseOnly)
 struct PROJEKT_PGK_WKA_API FAnimNode_CopyPoseRotations : public FAnimNode_Base
@@ -47,22 +47,22 @@ struct PROJEKT_PGK_WKA_API FAnimNode_CopyPoseRotations : public FAnimNode_Base
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Links)
 	FPoseLink In;
 
-	/*  This is used by default if it's valid */
+
 	UPROPERTY(BlueprintReadWrite, transient, Category = Copy, meta = (PinShownByDefault))
 	TWeakObjectPtr<USkeletalMeshComponent> SourceMeshComponent;
 
 	UPROPERTY(EditAnywhere, Category = Copy, meta = (NeverAsPin))
 	TArray<FProjekt_PGK_WKA_BoneSourceToTargetMapping> BoneMapping;
 
-	/* If SourceMeshComponent is not valid, and if this is true, it will look for attahced parent as a source */
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Copy, meta = (NeverAsPin))
 	uint8 bUseAttachedParent : 1;
 
-	/* Copy curves also from SouceMeshComponent. This will copy the curves if this instance also contains */
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Copy, meta = (NeverAsPin))
 	uint8 bCopyCurves : 1;
 
-	/* If you want to specify copy root, use this - this will ensure copy only below of this joint (inclusively) */
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Copy, meta = (NeverAsPin))
 	FName RootBoneToCopy;
 
@@ -103,3 +103,4 @@ private:
 	void ReinitializeMeshComponent(USkeletalMeshComponent* NewSkeletalMeshComponent, USkeletalMeshComponent* TargetMeshComponent);
 	void RefreshMeshComponent(USkeletalMeshComponent* TargetMeshComponent);
 };
+*/

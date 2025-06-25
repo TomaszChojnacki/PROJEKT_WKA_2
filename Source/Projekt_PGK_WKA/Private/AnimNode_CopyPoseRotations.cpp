@@ -1,5 +1,7 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
+/*
 #include "AnimNode_CopyPoseRotations.h"
+#if WITH_EDITOR
 #include "Animation/AnimInstanceProxy.h"
 #include "ReferenceSkeleton.h"
 #include "Animation/AnimCurveUtils.h"
@@ -300,3 +302,5 @@ void FAnimNode_CopyPoseRotations::ReinitializeMeshComponent(USkeletalMeshCompone
 }
 
 #undef LOCTEXT_NAMESPACE // CitySampleAnimNode_CopyPoseRotations
+#endif // WITH_EDITOR
+*/

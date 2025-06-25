@@ -9,17 +9,7 @@
 			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"AdditionalDependencies": [
-				"Engine",
-				"AnimGraph"
-			]
-		},
-		{
-			"Name": "Projekt_PGK_WKARuntime",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine",
-				"AnimGraph"
+				"Engine"
 			]
 		}
 	],
@@ -105,10 +95,6 @@
 		{
 			"Name": "PCG",
 			"Enabled": true
-		},
-		{
-			"Name": "Fab",
-			"Enabled": false
 		},
 		{
 			"Name": "MassEntity",

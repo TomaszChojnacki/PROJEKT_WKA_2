@@ -1,4 +1,6 @@
 #include "AnimGraphNode_CopyPoseRotations.h"
+#if WITH_EDITOR
+
 #include "Animation/AnimAttributes.h"
 
 #define LOCTEXT_NAMESPACE "AnimGraphNode_CopyPoseRotations"
@@ -28,3 +30,4 @@ void UAnimGraphNode_CopyPoseRotations::GetOutputLinkAttributes(FNodeAttributeArr
 }
 
 #undef LOCTEXT_NAMESPACE // CitySampleAnimGraphNode_CopyPoseRotations
+#endif // WITH_EDITOR
